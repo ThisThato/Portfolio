@@ -7,7 +7,7 @@ const Header = () => {
     <Fragment>
       <Navbar bg="light" variant="light" expand="lg" collapseOnSelect>
         <Container>
-          <Navbar.Brand>Thato Motaung</Navbar.Brand>
+          <Navbar.Brand></Navbar.Brand>
         </Container>
       </Navbar>
     </Fragment>

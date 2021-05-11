@@ -3,15 +3,15 @@ import { BrowserRouter as Router } from "react-router-dom";
 import Header from "./components/Header";
 import Landing from "./pages/landing";
 import Titles from "./components/Titles";
-import Work from "./pages/work";
+import Workscreen from "./pages/workscreen";
 
 function App() {
   return (
     <Router>
-      <Header />
+      {/* <Header /> */}
       <Landing />
       <Titles />
-      <Work />
+      <Workscreen />
     </Router>
   );
 }
