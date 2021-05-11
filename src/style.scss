@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Roboto+Mono:wght@200;400;600;700&display=swap");
+body {
+  font-family: "Playfair Display", serif !important;
+  text-align: center;
+}
+
+.landing {
+  &-text {
+    margin: 5rem;
+
+    h1 {
+      font-weight: 700;
+      font-size: 3.5rem;
+      // overflow: hidden; /* Ensures the content is not revealed until the animation */
+      // border-right: 0.15em solid orange; /* The typwriter cursor */
+      // white-space: nowrap; /* Keeps the content on a single line */
+      // margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+      // letter-spacing: 0.15em; /* Adjust as needed */
+      // animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
+      margin-bottom: 1rem;
+
+      span {
+        color: #ff9d00 !important;
+      }
+    }
+    h3 {
+      font-family: "Roboto Mono", monospace;
+      font-weight: 700;
+    }
+  }
+
+  &-image {
+    border-radius: 50%;
+    height: 550px;
+    width: 580px;
+  }
+}
+
+.title {
+  margin-top: 4rem;
+  margin-bottom: 15rem;
+
+  &-card {
+    .card-body {
+      background-color: #ffffff;
+    }
+
+    i {
+      float: left;
+      border-radius: 50%;
+    }
+    &-text {
+      text-align: left;
+      margin-left: 3.5rem;
+      h2 {
+        font-weight: 700;
+        font-size: 1.5rem;
+        margin-bottom: 1.3rem;
+      }
+    }
+  }
+}
+
+.work-header {
+  border: 3px solid black;
+  border-left: 0;
+  border-right: 0;
+  margin-bottom: 2rem;
+  margin-top: 5rem;
+  padding: 1rem;
+  h2 {
+    float: left;
+    font-weight: 700;
+    font-size: 1.5rem;
+  }
+  p {
+    text-align: right;
+  }
+}
+
+/* The typing effect */
+// @keyframes typing {
+//   from {
+//     width: 0;
+//   }
+//   to {
+//     width: 100%;
+//   }
+// }
+
+// /* The typewriter cursor effect */
+// @keyframes blink-caret {
+//   from,
+//   to {
+//     border-color: transparent;
+//   }
+//   50% {
+//     border-color: orange;
+//   }
+// }
