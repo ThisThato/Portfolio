@@ -1,5 +1,5 @@
 import React from "react";
-import { Badge, Card } from "react-bootstrap";
+import { Card } from "react-bootstrap";
 
 const Work = ({ project }) => {
   return (
@@ -8,8 +8,10 @@ const Work = ({ project }) => {
         <div className="mainflip">
           <div class="frontside">
             <Card className="my-3 rounded">
-              <Card.Img src={project.image} className="img-fluid" />
-              <Card.Body></Card.Body>
+              <Card.Img src={project.image} className="img-fluid" style={{ marginBottom: "4rem" }} />
+              <Card.Body>
+                <i className="fas fa-arrow-right" style={{ float: "right" }}></i>
+              </Card.Body>
             </Card>
           </div>
           <div class="backside">

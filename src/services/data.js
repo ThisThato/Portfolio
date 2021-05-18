@@ -37,6 +37,15 @@ const data = {
       stack: ["react", "mongo", "express", "node"],
       image: "/images/skyla.png",
     },
+    {
+      id: "10",
+      projectName: "Digital Agency UI",
+      description: "A Sample digital agency website.",
+      link: "https://thisthato.github.io/Digital-Agency-UI/",
+      repo: "https://github.com/ThisThato/Digital-Agency-UI",
+      stack: ["html", "sass"],
+      image: "/images/digitalagency.png",
+    },
   ],
   education: [
     {
