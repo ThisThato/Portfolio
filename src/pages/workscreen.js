@@ -1,31 +1,25 @@
 import React from "react";
-import { Card, Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 import Work from "../components/Work";
+import data from "../services/data";
 
-const workscreen = () => {
+const WorkScreen = () => {
   return (
-    <Container>
-      <div className="work-header">
-        <h2>Free-lancer</h2>
-        <p>Currently doing free lance projects as a mobile / web developer</p>
-      </div>
-      <div>
-        <blockquote className="blockquote mb-0 card-body">
-          <h2 className=" mb-3">
-            "Failure is an option here.
-            <br /> If things are not failing, <span>you are </span>not innovating <span>enough</span>."
-          </h2>
-          <footer className="blockquote-footer">
-            <small className="text-muted mt-2">Elon Musk</small>
-          </footer>
-        </blockquote>
-      </div>
-      <div className="my-work">
+    <>
+      <Container className="work">
         <h1>My Work</h1>
-      </div>
-      <Work />
-    </Container>
+        <div className="work-item">
+          <Row>
+            {data.projects.map((project) => (
+              <Col key={project.id} sm={12} md={4} lg={4}>
+                <Work project={project} />
+              </Col>
+            ))}
+          </Row>
+        </div>
+      </Container>
+    </>
   );
 };
 
-export default workscreen;
+export default WorkScreen;

@@ -2,7 +2,7 @@ const data = {
   projects: [
     {
       id: "1",
-      school: "ProStock",
+      projectName: "ProStock",
       description: "Social networking app for developers, allows developers to build a profile and post their work.",
       link: "/",
       repo: "https://github.com/ThisThato/prostock",
@@ -10,26 +10,27 @@ const data = {
       stack: ["react", "mongo", "express", "node"],
     },
     {
+      id: "3",
+      projectName: "Portfolio Website",
+      description: "A portfolio website about myself. It entails all my work, knowledge, hobbies and interest.",
+      link: "https://thisthato.github.io/ThatoMotaung/dist/index.html",
+      repo: "https://github.com/ThisThato/ThatoMotaung",
+      stack: ["html", "javascript", "sass"],
+      image: "/images/portfolio.png",
+    },
+    {
       id: "2",
-      school: "DevConnector",
+      projectName: "DevConnector",
       description: "Social networking app for developers, allows developers to build a profile and post their work.",
       link: "/",
       repo: "https://github.com/ThisThato/Devconnector",
       stack: ["react", "mongo", "express", "node"],
       image: "/images/devconnector.jpg",
     },
-    {
-      id: "3",
-      school: "Portfolio Website",
-      description: "A portfolio website about myself. It entails all my work, knowledge, hobbies and interest.",
-      link: "https://thisthato.github.io/ThatoMotaung/dist/index.html",
-      repo: "https://github.com/ThisThato/ThatoMotaung",
-      stack: ["react", "mongo", "node", "sass"],
-      image: "/images/portfolio.png",
-    },
+
     {
       id: "4",
-      school: "SkylaDelights",
+      projectName: "SkylaDelights",
       description: "website for skyla delight",
       link: "/",
       repo: "/",

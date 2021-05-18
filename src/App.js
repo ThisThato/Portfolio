@@ -3,7 +3,8 @@ import { BrowserRouter as Router } from "react-router-dom";
 import Header from "./components/Header";
 import Landing from "./pages/landing";
 import Titles from "./components/Titles";
-import Workscreen from "./pages/workscreen";
+import InfoScreen from "./pages/infoScreen";
+import WorkScreen from "./pages/WorkScreen";
 
 function App() {
   return (
@@ -11,7 +12,8 @@ function App() {
       {/* <Header /> */}
       <Landing />
       <Titles />
-      <Workscreen />
+      <InfoScreen />
+      <WorkScreen />
     </Router>
   );
 }
