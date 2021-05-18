@@ -1,6 +1,6 @@
 import React, { Fragment } from "react";
-import { LinkContainer } from "react-router-bootstrap";
-import { Navbar, Nav, Container, Row, Col } from "react-bootstrap";
+
+import { Navbar, Container } from "react-bootstrap";
 
 const Header = () => {
   return (

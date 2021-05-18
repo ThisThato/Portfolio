@@ -1,5 +1,6 @@
 import React from "react";
 import { Card, Container, Row, Col } from "react-bootstrap";
+import Work from "../components/Work";
 
 const workscreen = () => {
   return (
@@ -22,6 +23,7 @@ const workscreen = () => {
       <div className="my-work">
         <h1>My Work</h1>
       </div>
+      <Work />
     </Container>
   );
 };
