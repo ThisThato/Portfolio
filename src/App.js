@@ -5,6 +5,7 @@ import Landing from "./pages/landing";
 import Titles from "./components/Titles";
 import InfoScreen from "./pages/infoScreen";
 import WorkScreen from "./pages/WorkScreen";
+import EducationScreen from "./pages/educationScreen";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Titles />
       <InfoScreen />
       <WorkScreen />
+      <EducationScreen />
     </Router>
   );
 }
