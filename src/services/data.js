@@ -6,7 +6,7 @@ const data = {
       description: "Social networking app for developers, allows developers to build a profile and post their work.",
       link: "/",
       repo: "https://github.com/ThisThato/prostock",
-      image: "/images/prostock.png",
+      image: "./images/prostock.png",
       stack: ["react", "mongo", "express", "node"],
     },
     {
@@ -72,7 +72,8 @@ const data = {
       id: "7",
       title: "MERN eCommerce from scratch",
       site: "Udemy",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
       date: "03/04/2020",
       image: "/",
     },
@@ -80,7 +81,8 @@ const data = {
       id: "8",
       title: "The Complete Web development bootcamp",
       site: "Udemy",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
       date: "03/03/2020",
       image: "/",
     },
@@ -88,7 +90,8 @@ const data = {
       id: "9",
       title: "Deployment of decentralized applications on RSK Blockchain",
       site: "RSK Academy",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
       date: "03/03/2020",
       image: "/",
     },
