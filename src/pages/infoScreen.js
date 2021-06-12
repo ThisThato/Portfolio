@@ -5,7 +5,7 @@ const infoScreen = () => {
   return (
     <Container>
       <div className="info-header">
-        <h2>Free-lancer</h2>
+        <h2>d e v e l o p e r</h2>
         <p>Currently doing free lance projects as a mobile / web developer</p>
       </div>
       <div>

@@ -63,7 +63,6 @@ const data = {
       qualification: "Matric",
       description: "Mathematics, Accounting, Life science, Physical Science, Sepedi HL, English FAL, Life Orientation",
       date: "2015",
-      mealPrice: 70.0,
       image: "/",
     },
   ],
@@ -78,7 +77,7 @@ const data = {
       image: "/",
     },
     {
-      id: "8",
+      id: "10",
       title: "The Complete Web development bootcamp",
       site: "Udemy",
       description:
@@ -88,11 +87,20 @@ const data = {
     },
     {
       id: "9",
+      title: "MERN Stack front to back",
+      site: "Udemy",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+      date: "03/03/2020",
+      image: "/",
+    },
+    {
+      id: "8",
       title: "Deployment of decentralized applications on RSK Blockchain",
       site: "RSK Academy",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
-      date: "03/03/2020",
+      date: "03/03/2021",
       image: "/",
     },
   ],
