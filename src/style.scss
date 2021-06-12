@@ -211,6 +211,13 @@ body {
   button {
     margin-top: 1rem;
   }
+
+  button {
+    background-color: orange;
+    border-color: orange;
+    font-size: 1rem;
+    width: 100%;
+  }
 }
 /* The typing effect */
 @keyframes typing {

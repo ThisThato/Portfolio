@@ -12,8 +12,8 @@ const Footer = () => {
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
               dolore magna aliqua
             </p>
-            <h3>thatokamomotaung@gmail.com</h3>
-            <h3>+27 79 280 7777</h3>
+            <h4>thatokamomotaung@gmail.com</h4>
+            <h4>+27 79 280 7777</h4>
             <div>
               <a href="https://twitter.com/_thatomotaung">
                 <i className="fab fa-twitter"></i>
