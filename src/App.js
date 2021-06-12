@@ -6,6 +6,7 @@ import Titles from "./components/Titles";
 import InfoScreen from "./pages/infoScreen";
 import WorkScreen from "./pages/WorkScreen";
 import EducationScreen from "./pages/educationScreen";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <InfoScreen />
       <WorkScreen />
       <EducationScreen />
+      <Footer />
     </Router>
   );
 }

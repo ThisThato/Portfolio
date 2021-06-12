@@ -177,6 +177,29 @@ body {
     margin-bottom: 8rem;
   }
 }
+
+.footer {
+  text-align: left;
+
+  i {
+    margin: 1rem;
+    border-radius: 50%;
+    background-color: #ff9d00;
+    padding: 0.5rem;
+  }
+  .form-control {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+  }
+
+  .form-label,
+  button {
+    margin-top: 1rem;
+  }
+}
 /* The typing effect */
 @keyframes typing {
   from {
