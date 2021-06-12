@@ -12,12 +12,18 @@ const Footer = () => {
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
               dolore magna aliqua
             </p>
+            <h3>thatokamomotaung@gmail.com</h3>
             <h3>+27 79 280 7777</h3>
-
             <div>
-              <i className="fab fa-twitter"></i>
-              <i className="fab fa-instagram"></i>
-              <i className="fab fa-github"></i>
+              <a href="https://twitter.com/_thatomotaung">
+                <i className="fab fa-twitter"></i>
+              </a>
+              <a href="https://www.linkedin.com/in/thato-motaung-3a727814a/">
+                <i className="fab fa-linkedin"></i>
+              </a>
+              <a href="https://github.com/ThisThato">
+                <i className="fab fa-github"></i>
+              </a>
             </div>
           </Col>
           <Col sm={12} md={6} lg={6}>
